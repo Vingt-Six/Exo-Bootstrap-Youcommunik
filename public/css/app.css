@@ -18116,4 +18116,62 @@ header .collapse {
 header .collapse li {
   margin: 0 -2%;
 }
+
+.secyoucom .logoab {
+  width: 45%;
+  padding-left: 10%;
+}
+
+.secyoucom .textab {
+  width: 55%;
+}
+
+.secyoucom .textab p {
+  font-size: 0.85vw;
+}
+
+.cardss, .cardss2 {
+  height: 46vw;
+  background-color: #334d5c;
+}
+
+.cardss .toppackage, .cardss2 .toppackage {
+  width: 100%;
+}
+
+.cardss .toppackage .imgpackage, .cardss2 .toppackage .imgpackage {
+  width: 35%;
+}
+
+.cardss .toppackage .cardsectitle, .cardss2 .toppackage .cardsectitle {
+  width: 65%;
+}
+
+.cardss div, .cardss2 div {
+  background-color: #334d5c;
+}
+
+.cardss .carte, .cardss2 .carte {
+  width: 90%;
+}
+
+.cardss .carte .card, .cardss2 .carte .card {
+  width: 80%;
+}
+
+.cardss .carte .card p, .cardss2 .carte .card p {
+  font-size: 0.75vw;
+}
+
+.cardss .carte .card button, .cardss2 .carte .card button {
+  height: 50px;
+}
+
+.cardss2 {
+  background-color: #fff;
+}
+
+.cardss2 div {
+  background-color: #fff;
+}
 /*# sourceMappingURL=app.css.map */
