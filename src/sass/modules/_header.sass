@@ -1,7 +1,13 @@
 header
     a
         font-size: 0.6vw
+        @include media-breakpoint-only(lg)
+            font-size: 0.75vw
     .collapse
         padding-left: 30%
         li
             margin: 0 -2%
+    nav
+        img
+            @include media-breakpoint-between(xs, lg)
+                display: none

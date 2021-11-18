@@ -18105,8 +18105,26 @@ body {
           box-shadow: 0px 0px 40px #000;
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body {
+    margin: 0;
+  }
+}
+
 header a {
   font-size: 0.6vw;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header a {
+    font-size: 0.75vw;
+  }
 }
 
 header .collapse {
@@ -18117,22 +18135,95 @@ header .collapse li {
   margin: 0 -2%;
 }
 
+@media (max-width: 991.98px) {
+  header nav img {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .secyoucom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .secyoucom .logoab {
   width: 45%;
   padding-left: 10%;
+}
+
+@media (max-width: 575.98px) {
+  .secyoucom .logoab {
+    display: none;
+  }
 }
 
 .secyoucom .textab {
   width: 55%;
 }
 
+@media (max-width: 575.98px) {
+  .secyoucom .textab {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .secyoucom .textab h1, .secyoucom .textab .h1 {
+    font-size: 2vw;
+  }
+}
+
 .secyoucom .textab p {
   font-size: 0.85vw;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .secyoucom .textab p {
+    font-size: 1.1vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .secyoucom .textab p {
+    font-size: 1.4vw;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .secyoucom .textab p {
+    font-size: 3vw;
+  }
 }
 
 .cardss, .cardss2 {
   height: 46vw;
   background-color: #334d5c;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cardss, .cardss2 {
+    height: 60vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cardss, .cardss2 {
+    height: 78vw;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cardss, .cardss2 {
+    height: 440vh;
+  }
 }
 
 .cardss .toppackage, .cardss2 .toppackage {
@@ -18143,8 +18234,28 @@ header .collapse li {
   width: 35%;
 }
 
+@media (max-width: 575.98px) {
+  .cardss .toppackage .imgpackage, .cardss2 .toppackage .imgpackage {
+    width: 0%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cardss .toppackage .imgpackage img, .cardss2 .toppackage .imgpackage img {
+    display: none;
+    padding-left: -5vw;
+  }
+}
+
 .cardss .toppackage .cardsectitle, .cardss2 .toppackage .cardsectitle {
   width: 65%;
+}
+
+@media (max-width: 575.98px) {
+  .cardss .toppackage .cardsectitle, .cardss2 .toppackage .cardsectitle {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .cardss div, .cardss2 div {
@@ -18155,12 +18266,36 @@ header .collapse li {
   width: 90%;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cardss .carte, .cardss2 .carte {
+    width: 95%;
+  }
+}
+
 .cardss .carte .card, .cardss2 .carte .card {
   width: 80%;
 }
 
 .cardss .carte .card p, .cardss2 .carte .card p {
   font-size: 0.75vw;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cardss .carte .card p, .cardss2 .carte .card p {
+    font-size: 1vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cardss .carte .card p, .cardss2 .carte .card p {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cardss .carte .card p, .cardss2 .carte .card p {
+    font-size: 3vw;
+  }
 }
 
 .cardss .carte .card button, .cardss2 .carte .card button {
@@ -18173,5 +18308,26 @@ header .collapse li {
 
 .cardss2 div {
   background-color: #fff;
+}
+
+@media (max-width: 575.98px) {
+  .iconfooter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .iconfooter div {
+    margin-bottom: 5vw;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .iconfooter div .socialmedia {
+    width: 17%;
+  }
 }
 /*# sourceMappingURL=app.css.map */

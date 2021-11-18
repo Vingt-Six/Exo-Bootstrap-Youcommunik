@@ -1,33 +1,82 @@
 .secyoucom
+    @include media-breakpoint-only(xs)
+        flex-direction: column
+        align-items: center
     .logoab
         width: 45%
         padding-left: 10%
+        @include media-breakpoint-only(xs)
+            display: none
     .textab
         width: 55%
+        @include media-breakpoint-only(xs)
+            width: 90%
+            text-align: center
+        h1
+            @include media-breakpoint-only(xs)
+                font-size: 2vw
         p
             font-size: 0.85vw
+            @include media-breakpoint-only(lg)
+                font-size: 1.1vw
+            @include media-breakpoint-only(md)
+                font-size: 1.4vw
+            @include media-breakpoint-only(xs)
+                font-size: 3vw
 
 .cardss, .cardss2
     height: 46vw
     background-color: #334d5c
+    @include media-breakpoint-only(lg)
+        height: 60vw
+    @include media-breakpoint-only(md)
+        height: 78vw
+    @include media-breakpoint-only(xs)
+        height: 440vh
     .toppackage
         width: 100%
         .imgpackage
             width: 35%
+            @include media-breakpoint-only(xs)
+                width: 0%
+            img
+                @include media-breakpoint-only(xs)
+                    display: none
+                    padding-left: -5vw
         .cardsectitle
             width: 65%
-            
+            @include media-breakpoint-only(xs)
+                width: 100%
+                text-align: center
     div
         background-color: #334d5c
     .carte
         width: 90%
+        @include media-breakpoint-only(md)
+            width: 95%
         .card
             width: 80%
             p
                 font-size: 0.75vw
+                @include media-breakpoint-only(lg)
+                    font-size: 1vw
+                @include media-breakpoint-only(md)
+                    font-size: 1.5vw
+                @include media-breakpoint-only(xs)
+                    font-size: 3vw
             button
                 height: 50px
 .cardss2
     background-color: #fff
     div
         background-color: #fff
+
+.iconfooter
+    @include media-breakpoint-only(xs)
+        flex-direction: column
+    div
+        @include media-breakpoint-only(xs)
+            margin-bottom: 5vw
+        .socialmedia
+            @include media-breakpoint-only(xs)
+                width: 17%
